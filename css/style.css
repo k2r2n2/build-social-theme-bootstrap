@@ -1,0 +1,167 @@
+/* #e63946 #f1faee #a8dadc #457b9d #1d3557 */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+header {
+  background-image: url("../img/home-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* margin-top: 56px; */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1d3557;
+  opacity: 0.8;
+}
+
+.fa {
+  border-radius: 100%;
+  color: white;
+  background: #e63946;
+}
+
+#explore {
+  background-color: #1d3557;
+}
+
+#explore .fa {
+  background: #e63946;
+}
+
+#create {
+  background-color: #e63946;
+}
+
+#create .fa {
+  background: #1d3557;
+}
+
+#share {
+  background-color: #1d3557;
+}
+
+#share .fa {
+  background: #e63946;
+}
+
+.heading {
+  padding: 2rem;
+  margin-bottom: 0 !important;
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  /* align-items: center;   */
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 2.5rem 1.5rem; */
+}
+
+::placeholder {
+  text-align: center;
+}
+
+input {
+  padding: 1.2rem !important;
+}
+
+input[type="submit"] {
+  border: none;
+  display: block;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.btn-major {
+  color: #f1faee;
+  background-color: #e63946;
+  outline: none;
+}
+
+.btn-minor {
+  color: #1d3557;
+  background-color: #f1faee;
+  outline: none;
+}
+
+/* footer p {
+  margin: 0;
+} */
+#explore {
+  color: #f1faee;
+  border-bottom: 3px solid #f1faee;
+}
+
+#explore-2 {
+  color: #f1faee;
+}
+
+#explore-2 img {
+  width: 80%;
+  display: block;
+}
+
+#create {
+  color: #f1faee;
+  border-bottom: 3px solid #1d3557;
+}
+
+#create-2 {
+  color: #f1faee;
+}
+
+#create-2 img {
+  width: 80%;
+  display: block;
+}
+
+#share {
+  color: #f1faee;
+  border-bottom: 3px solid #f1faee;
+}
+
+#share-2 {
+  color: #f1faee;
+}
+
+#share-2 img {
+  width: 80%;
+  display: block;
+}
+
+.row {
+  padding: 3rem 1rem;
+}
+
+#share,
+#create,
+#explore {
+  min-height: 100vh
+}
+
+footer .row {
+  padding: 0 !important;
+}
